@@ -24,6 +24,7 @@ group :development, :test do
   gem "pg"
 	gem "rspec-rails"
   gem 'capybara'
+  gem "thin"
 end
 group :production do
   gem 'pg'
