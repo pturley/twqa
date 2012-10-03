@@ -2,6 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.1'
 gem 'composite_primary_keys'
+gem "thin"
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -23,7 +24,6 @@ group :development, :test do
   gem "pg"
 	gem "rspec-rails"
   gem 'capybara'
-  gem "thin"
   gem 'sqlite3'
 end
 group :production do
