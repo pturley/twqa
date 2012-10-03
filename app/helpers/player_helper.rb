@@ -1,6 +1,6 @@
 module PlayerHelper
   def self.cities
-    ['Melbourne','Adelaide','Brisbane','Canberra','Darwin','Hobart','Perth','Sydney','Other']
+    ['Cape Town', 'Johannesburg', 'Durban', 'Pretoria', 'Stellenbosch', 'Port Elizabeth', 'Bloemfontein', 'Other']
   end
   
   def self.roles
